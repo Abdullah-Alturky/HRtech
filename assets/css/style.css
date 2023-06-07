@@ -269,7 +269,7 @@ h6 {
 }
 
 .navbar a:hover,
-.navbar .active,
+.navbar .active,ش
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #106eea;
@@ -780,14 +780,10 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.father{
-  text-align: center;
-  position: relative;
-  right: 400px;
-  
-}
+
 .astsher{
   position: relative;
+  top: -40px;
  font-size: 40px ;
  font-weight: bold;
   color:#00923F;
