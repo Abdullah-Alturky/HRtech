@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color:green;
 }
 
 a {
@@ -31,6 +31,7 @@ h4,
 h5,
 h6 {
   font-family: "Roboto", sans-serif;
+  color: #00923F;
 }
 
 /*--------------------------------------------------------------
@@ -173,7 +174,7 @@ h6 {
 }
 
 #header .logo {
-  font-size: 30px;
+  font-size: 50px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -191,11 +192,11 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 100px;
 }
 
 .scrolled-offset {
-  margin-top: 70px;
+  margin-top: 100px;
 }
 
 /*--------------------------------------------------------------
@@ -470,9 +471,10 @@ h6 {
   width: 100%;
  text-align: right;
   height: 75vh;
-  background: url("../img/identity/KSA2.png") center center;
+  background: url("../img/identity/adhr.png") center center;
   background-repeat: no-repeat;
-  background-size: 35%;
+  background-size: 32%;
+  background-position: 50% 60% ;
   position: relative;
 }
 
@@ -496,12 +498,12 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #222222;
+  color:#CACBC5;
   font-family: "Poppins", sans-serif;
 }
 
 #hero h1 span {
-  color: #00923F;
+  color: #97978C;
 }
 
 #hero h2 {
@@ -780,25 +782,29 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.father{
-  position: relative;
-  right:20px;
-}
-.astsher{
-  position: relative;
-  top: -40px;
- font-size: 40px ;
- font-weight: bold;
-  color:#00923F;
-}
-
 .services .icon-box {
+  text-align: center;
   border: 1px solid #e2eefd;
+  margin: 3%;
   padding: 80px 20px;
+  width: 300px;
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
 
+.services .icon-box .icon {
+  margin: 0 auto;
+  width: 204px;
+  height: 70px;
+  background: #f1f6fe;
+  border-radius: 4px;
+  border: 1px solid #deebfd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: ease-in-out 0.3s;
+}
 
 .services .icon-box .icon i {
   color: #3b8af2;
@@ -814,8 +820,7 @@ section {
 
 .services .icon-box h4 a {
   color: #222222;
-  font-style: normal;
-  transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.3s;
 }
 
 .services .icon-box p {
@@ -826,23 +831,17 @@ section {
 
 .services .icon-box:hover {
   border-color: #fff;
-  
   box-shadow: 0px 0 25px 0 rgba(16, 110, 234, 0.1);
 }
 
 .services .icon-box:hover h4 a,
 .services .icon-box:hover .icon i {
-  color:#00923F;
-  text-align: center;
+  color: #106eea;
 }
 
 .services .icon-box:hover .icon {
-  text-align: center;
-  border-color:#00923F;
- 
-
+  border-color: #106eea;
 }
-
 
 /*--------------------------------------------------------------
 # Testimonials
